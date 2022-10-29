@@ -36,3 +36,44 @@ resource "aws_instance" "web_3" {
     Name = "Otunba"
   }
 }
+
+resource "aws_instance" "web_4" {
+  ami           = "ami-09d3b3274b6c5d4aa"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "Tolu"
+  }
+}
+
+
+resource "aws_instance" "web_5" {
+  ami           = "ami-09d3b3274b6c5d4aa"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "Taiwo"
+  }
+}
+
+
+
+resource "aws_instance" "web_6" {
+  ami           = "ami-09d3b3274b6c5d4aa"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "Michele"
+  }
+}
+
+
+
+resource "aws_instance" "web_7" {
+  ami           = "ami-09d3b3274b6c5d4aa"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "Isaac"
+  }
+}
