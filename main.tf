@@ -77,3 +77,12 @@ resource "aws_instance" "web_7" {
     Name = "Isaac"
   }
 }
+
+resource "aws_instance" "web_8" {
+  ami           = "ami-09d3b3274b6c5d4aa"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "Ade"
+  }
+}
